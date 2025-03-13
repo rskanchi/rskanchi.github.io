@@ -28,6 +28,7 @@ a:hover {
 
 .container {
     display: flex; /* Use flexbox for layout */
+    flex-direction: row; /* This is the crucial change! */
     justify-content: space-between; /* Space items evenly */
 }
 
