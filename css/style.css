@@ -1,10 +1,46 @@
 body {
     font-family: sans-serif;
     background-color: #f0f0f0;
-    text-align: center;
-    padding: 50px;
+    padding: 20px;
 }
 
-h1 {
+.h2 {
     color: #333;
+}
+
+.a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.li {
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space items evenly */
+}
+
+.projects {
+    width: 60%; /* Adjust as needed */
+    padding-right: 20px;
+    border-right: 1px solid #ccc;
+}
+
+.profiles {
+    width: 35%; /* Adjust as needed */
+}
+
+.project {
+    margin-bottom: 20px;
 }
