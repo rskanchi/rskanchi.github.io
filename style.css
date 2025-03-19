@@ -27,3 +27,25 @@ kbd {
   kbd:nth-of-type(6) {
     background-color: #fff8e1; /* Light yellow */
   }
+
+  .buttons.linkedin {
+    background-color: #0077b5; /* LinkedIn blue */
+    color: white;
+  }
+  
+  .buttons.x {
+    background-color: #0077b5;
+    color: white;
+  }
+  
+  .buttons.bcm {
+      background-color: #0077b5; /* example green, change as needed */
+      color: white;
+  }
+  
+  .buttons {
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+  }
