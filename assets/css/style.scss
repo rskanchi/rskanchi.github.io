@@ -1,3 +1,9 @@
+---
+---
+
+@import 'jekyll-theme-dinky';
+
+body section article kbd { /* add more specificity */
 kbd {
     padding: 3px 5px;
     border-radius: 3px;
@@ -27,7 +33,9 @@ kbd {
   kbd:nth-of-type(6) {
     background-color: #fff8e1; /* Light yellow */
   }
+}
 
+header ul li a.buttons.linkedin { /* more specificity for buttons */
   .buttons.linkedin {
     background-color: #0077b5; /* LinkedIn blue */
     color: white;
@@ -49,3 +57,4 @@ kbd {
     text-decoration: none;
     margin-right: 10px;
   }
+}
