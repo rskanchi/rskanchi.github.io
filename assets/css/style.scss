@@ -30,24 +30,21 @@ kbd {
     background-color: #fff8e1; /* Light yellow */
   }
 
-  .buttons.linkedin {
+  header ul li a.buttons.linkedin {
     background-color: #0077b5; /* LinkedIn blue */
     color: white;
   }
   
-  .buttons.x {
+  header ul li a.buttons.x {
     background-color: #0077b5;
     color: white;
   }
   
-  .buttons.bcm {
+  header ul li a.buttons.bcm {
       background-color: #0077b5; /* example green, change as needed */
       color: white;
   }
   
   .buttons {
-    padding: 10px 15px;
-    border-radius: 5px;
-    text-decoration: none;
-    margin-right: 10px;
+    border: 2px solid white;
   }
